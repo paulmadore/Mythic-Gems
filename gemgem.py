@@ -20,11 +20,11 @@ from pygame.locals import *
 
 FPS = 30 # frames per second to update the screen
 WINDOWWIDTH = 600  # width of the program's window, in pixels
-WINDOWHEIGHT = 600 # height in pixels
+WINDOWHEIGHT = 900 # height in pixels
 
 BOARDWIDTH = 8 # how many columns in the board
 BOARDHEIGHT = 8 # how many rows in the board
-GEMIMAGESIZE = 64 # width & height of each space in pixels
+GEMIMAGESIZE = 48 # width & height of each space in pixels
 
 # NUMGEMIMAGES is the number of gem types. You will need .png image
 # files named gem0.png, gem1.png, etc. up to gem(N-1).png.
@@ -39,13 +39,13 @@ MOVERATE = 25 # 1 to 100, larger num means faster animations
 DEDUCTSPEED = 0.8 # reduces score by 1 point every DEDUCTSPEED seconds.
 
 #             R    G    B
-PURPLE    = (255,   0, 255)
+YELLOW    = (251, 197, 192)
 LIGHTBLUE = (170, 190, 255)
-BLUE      = (  0,   0, 255)
+BLUE      = (0, 0, 255)
 RED       = (255, 100, 100)
-BLACK     = (  0,   0,   0)
-BROWN     = ( 85,  65,   0)
-HIGHLIGHTCOLOR = PURPLE # color of the selected gem's border
+BLACK     = (0, 0, 0)
+BROWN     = (85, 65, 0)
+HIGHLIGHTCOLOR = YELLOW # color of the selected gem's border
 BGCOLOR = LIGHTBLUE # background color on the screen
 GRIDCOLOR = BLUE # color of the game board
 GAMEOVERCOLOR = RED # color of the "Game over" text.
